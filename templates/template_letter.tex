@@ -1,0 +1,50 @@
+%-----------------------------------------------------------------------------%
+
+% Letter class
+\documentclass[a4paper, 12pt]{letter}
+
+\newcommand\qed{\hfill\rule{1em}{1em}}
+\linespread{1.25}
+\usepackage[sc]{mathpazo}
+\usepackage[scaled]{helvet}
+
+% Name of sender
+\name{$author$}
+
+% Signature of sender
+\signature{$author$}
+
+% Address of sender
+\address
+{
+    $author$,\\
+    $address_sender$, \\
+    $city_sender$, \\
+    $country_sender$
+}
+
+%-----------------------------------------------------------------------------%
+
+\begin{document}
+
+% Name and address of receiver
+\begin{letter}
+{
+    $receiver$,\\
+    $address_receiver$,\\
+    $city_receiver$,\\
+    $country_receiver$
+}
+
+% Opening statement
+\opening{$opening$}
+
+% Letter body
+
+$body$
+
+% Closing statement
+\closing{$thanks$}
+
+\end{letter}
+\end{document}

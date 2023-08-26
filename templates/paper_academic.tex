@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage{geometry}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}%
+{\setlength{\parindent}{0pt}%
+\everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces}%
+{\par}
+
+\geometry{
+ left=25mm,
+ top=25mm,
+ right=25mm,
+ bottom=25mm
+}
+
+\linespread{1.5}
+
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+
+\begin{document}
+
+\maketitle
+
+\vspace{3mm}
+
+\begin{abstract}
+\textit{$abstract$}
+\end{abstract}
+
+\clearpage
+
+\tableofcontents
+
+\newpage
+
+$body$
+
+\newpage
+
+\bibliography{$bibliography$}
+\bibliographystyle{plain}
+
+\end{document}

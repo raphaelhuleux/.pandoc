@@ -1,0 +1,15 @@
+---
+numbersections: true
+fontsize: 12pt
+geometry: "left=25mm,top=25mm,right=25mm,bottom=25mm"
+header-includes: |
+  \newcommand\qed{\hfill\rule{1em}{1em}}
+  \linespread{1.25}
+  \usepackage[sc]{mathpazo}
+  \usepackage[scaled]{helvet}
+  \pagenumbering{gobble}
+  \newcommand{\startpagenumbers}{\newpage\pagenumbering{arabic}}
+  \setlength{\parskip}{1.5ex plus 0.3ex minus 0.3ex}
+toc: false
+reference-section-title: References
+---
